@@ -1,0 +1,98 @@
+{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(COVID1.JPG);
+	height: 100vh;
+	background-size: 100vh;
+	background-position: center;
+
+}
+main{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(COVID2.JPG);
+	height: 130vh;
+	background-size: 158vh;
+	background-size: ;
+	background-position: center;
+
+}
+footer{
+	height: 5vh;
+	background-color: lightblue;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #transperent;
+	transition: 0.6s ease
+
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title{
+	color: YELLOW;
+	top: 80%;
+	font-size: 100;}
+
+
+
+.button{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+
+}
+
+
+.btn
+{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+}
+.btn hover{
+
+	background-color: #fff;
+	color: #000000;
+}
